@@ -64,7 +64,6 @@ int main(int argc, char **argv) {
 	while (1) {
 		int n = recv(sock,buffer,sizeof(buffer),0);
 		if ( n < 0 ) continue;
-		printf("got packet: length=%d\n",n);
 		for (i=0;i<dcount;i++) {
 			sendto(sock,buffer,n,0,(struct sockaddr*)&d[i],sizeof(d[i]));
 		}
