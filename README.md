@@ -1,6 +1,6 @@
 ## UDP relay
 
-Simple UDP relay that support multiple destinations. All received content is sent to all destinations.
+Simple UDP relay that supports multiple destinations. All received data is sent to all destinations.
 
 ## Installation
 
